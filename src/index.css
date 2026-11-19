@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+/*
+ * 디자인 토큰 (디자인 시스템 확정 후 값 교체)
+ * 사용 예: bg-primary, text-primary
+ */
+@theme {
+  --color-primary: #2f5bea;
+  --color-primary-dark: #1f44c4;
+  --color-danger: #e5484d;
+  --color-warning: #f5a524;
+  --color-success: #30a46c;
+  --font-sans: 'Pretendard', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
